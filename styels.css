@@ -1,0 +1,22 @@
+.first-word{
+    font-size: 20px;
+    background-color: gray;
+    color: hotpink;
+}
+.first-pic{
+    width: 200ps;
+    height: 200px;
+    padding: 50px;
+    display: inline;
+    padding-left: 850px;
+}
+.apr-online{
+    background-color: black;
+    color: whitesmoke;
+}
+.second-pic{
+    display:flex;
+    grid-template-columns: repeat(1fr,1fr,1fr,1fr);
+    margin: 10px;
+    width: 20px;
+}
