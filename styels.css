@@ -48,3 +48,43 @@ nav a{
    justify-content: center;
    align-items: center;
 }
+.collections{
+    text-align: center;
+    font-size: 1.3em;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid img{
+      width: 400px;
+      height: 350px;
+    margin: 20px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.emt{
+    color: #FFC014;
+}
+.fa-star.fild{
+    color: #AEAEAE;
+}
+/* footer----- */
+.copyright-text{
+    text-align: center;
+}
+.social-1{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: rgb(71, 66, 66);
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#s-icon{
+    margin-right: 20px;
+    color: rgb(102, 186, 243);
+}
