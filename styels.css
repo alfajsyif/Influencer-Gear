@@ -1,22 +1,27 @@
-.first-word{
-    font-size: 20px;
-    background-color: gray;
-    color: hotpink;
+.pre-book{
+    background-color: rgb(226, 136, 248);
+    color: rgb(29, 28, 25);
+    font-size: 1em;
 }
-.first-pic{
-    width: 200ps;
-    height: 200px;
+.shop{
+   color: rgb(24, 20, 27);
+   font-size: 3em;
+}
+.e-shop{
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 50px;
     padding: 50px;
-    display: inline;
-    padding-left: 850px;
 }
-.apr-online{
-    background-color: black;
-    color: whitesmoke;
-}
-.second-pic{
-    display:flex;
-    grid-template-columns: repeat(1fr,1fr,1fr,1fr);
-    margin: 10px;
-    width: 20px;
+nav a{
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    font-size: 1.5em;
+   margin-left: 25px;
 }
